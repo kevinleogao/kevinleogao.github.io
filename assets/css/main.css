@@ -182,3 +182,13 @@ a {
     background-color: #e7e7e7;
   }
 
+  /* Initially hide all items */
+  #portfolio-grid .item {
+    display: none;
+  }
+
+  /* Show items with the "active" class or items matching the selected filter */
+  #portfolio-grid .item.active,
+  #portfolio-grid .item.filtered {
+    display: flex;
+  }
