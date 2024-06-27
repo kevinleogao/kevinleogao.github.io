@@ -11,7 +11,13 @@
         mirror: false
       })
     });
+
+    /**
+     * Update footer automatically
+     */
   
+    document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+
   })()
 
   function readmore() {
